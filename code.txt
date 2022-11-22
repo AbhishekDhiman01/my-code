@@ -1,0 +1,5 @@
+-------- screen shot code ---- 
+
+val screenShot = firstChatThread.toElement().getScreenshotAs(OutputType.FILE)
+        val img = ImageIO.read(screenShot)
+        ImageIO.write(img, "png", File("/Users/abhishek.abhishek/oneapp-mbt/oneapp-test/src/test/resources/imgs/sdf.png"))
